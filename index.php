@@ -14,7 +14,7 @@
 		// Connect to Postgres
 
 		if (file_exists('.env')) {
-			require__DIR__ . '/vendor/autoload.php';
+			require __DIR__ . '/vendor/autoload.php';
 			$dotenv = new Dotenv\Dotenv(__DIR__);
 			$dotenv-> load();
 		};
